@@ -1,0 +1,26 @@
+{
+  "name": "mern-on-a-plate",
+  "version": "1.0.0",
+  "description": "Quick template for MERN Apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"nodemon server/server.js\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shutterspeed1000/AquaTrac.git"
+  },
+  "author": "Sean Worrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shutterspeed1000/AquaTrac/issues"
+  },
+  "homepage": "https://github.com/shutterspeed1000/AquaTrac#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
