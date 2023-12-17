@@ -20,6 +20,7 @@ To get started, clone the repo to your system.
 Create a .env file in the root of the project with the following information:
 
 PORT="3001"
+
 MONGOURI="mongodb://localhost:27017" (edit this for your server)
 
 1. Run "npm i" to get initial requierments installed
